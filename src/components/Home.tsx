@@ -4,7 +4,11 @@ import { BLOG_POSTS } from '../constants';
 import BlogCard from './BlogCard';
 import { ArrowRight, Rss } from 'lucide-react';
 
-export default function Home() {
+interface HomeProps {
+  onNavigate: (page: 'home' | 'products') => void;
+}
+
+export default function Home({ onNavigate }: HomeProps) {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
@@ -51,7 +55,10 @@ export default function Home() {
             <button className="bg-primary text-deep-green px-10 py-4 rounded-full font-extrabold text-lg hover:translate-y-[-2px] transition-all shadow-xl shadow-primary/30">
               브랜드 스토리 보기
             </button>
-            <button className="bg-white/10 backdrop-blur-md border border-white/30 text-white px-10 py-4 rounded-full font-extrabold text-lg hover:bg-white/20 transition-all">
+            <button
+              onClick={() => onNavigate('products')}
+              className="bg-white/10 backdrop-blur-md border border-white/30 text-white px-10 py-4 rounded-full font-extrabold text-lg hover:bg-white/20 transition-all"
+            >
               제품 둘러보기
             </button>
           </motion.div>

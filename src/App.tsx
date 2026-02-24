@@ -20,11 +20,11 @@ export default function App() {
 
   return (
     <div className="min-h-screen flex flex-col font-display">
-      <Header 
-        onNavigate={setCurrentPage} 
-        currentPage={currentPage} 
+      <Header
+        onNavigate={setCurrentPage}
+        currentPage={currentPage}
       />
-      
+
       <main className="flex-1">
         <AnimatePresence mode="wait">
           <motion.div
@@ -34,7 +34,7 @@ export default function App() {
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.3 }}
           >
-            {currentPage === 'home' ? <Home /> : <Products />}
+            {currentPage === 'home' ? <Home onNavigate={setCurrentPage} /> : <Products />}
           </motion.div>
         </AnimatePresence>
       </main>
