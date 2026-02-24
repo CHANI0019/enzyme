@@ -19,7 +19,7 @@ export default function Products() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-background-dark/40 z-10" />
           <img
-            src="https://images.unsplash.com/photo-1540348563548-6ec47aa8021a?q=80&w=2000&auto=format&fit=crop"
+            src="/images/products_hero.jpg"
             alt="Products Hero"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"

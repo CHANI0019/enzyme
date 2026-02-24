@@ -16,7 +16,7 @@ export default function Home({ onNavigate }: HomeProps) {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/60 z-10" />
           <img
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfFnmF-hD3x1Q66fCOqE-pUrxdwLbWiLqfQanFlvTtjX3bnpWIzGF40diqu7lVyvBy1n1O0bPDD7ULgMHh0ncYXWDschu94Au8jwIil_4OTb4SZ6c_I1yj9LbRCqmal1nLGyMafCFd60hl66DKBEnWPXJTWOMbHqIFaY-qDnPxSbo90XRoJ6RMzEXzLpaVKXqRMbzz0lVs9BaKnnOSvblcZ7LqDggF2h4ERYSlDxiYZ9l5uobK992Ig_G9kWxbwcWlXoCjRNUozzA"
+            src="/images/home_hero.jpg"
             alt="Traditional Jars"
             className="w-full h-full object-cover scale-105"
             referrerPolicy="no-referrer"
