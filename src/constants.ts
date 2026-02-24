@@ -88,21 +88,21 @@ export const BLOG_POSTS: BlogPost[] = [
     id: '1',
     title: '효소명가가 지켜온 30년 발효의 철학',
     excerpt: '우리는 단순한 음식을 만드는 것이 아니라, 시간이 빚어낸 생명력을 담습니다. 30년간 지켜온 항아리 발효의 비밀을 공개합니다.',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBWvGkre2V7q-BzU2jZKpI8395gpUILntXUWbJYdM02lWpCU8e4ixgJg0ZlbRt8qkxCztpNH49lwfTt7lYEMPs3F9Snk7IIm9sPzDEfg-uqTO9enRVRqg6c9mNe-QbRx_I1nGTyow6iNCMtCIthQGhJ2OnWR8FErebySzB-_MA4KxXVltofFKv_Urt83gsrpEbZiihs5MCA_EwBt84FcHV3MtKBKZ-CbpUIA4jPnfQ07oIp4I4NmW8mlUrvV4uAEm-fMF3kbIm9-Sg',
+    image: '/images/b1.jpg',
     category: 'Tradition'
   },
   {
     id: '2',
     title: '속이 편해지는 매일 한 잔의 습관',
     excerpt: '현대인의 불규칙한 식습관, 어떻게 개선할 수 있을까요? 효소명가와 함께하는 아침 루틴이 가져온 놀라운 변화를 확인하세요.',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAotmUqR0ksKgw2Aejz2rp_JlAyLh4zGNExcepA0-jlKAYb6n00jIqU90sT0914P6v-q3Q0eTb_fJInsoaZZdUw4y2NHJnk2g4OVNXbKQSao3xSAFl1A2ygBbOAgM-qiOXn4ldLWZmLRiG_4PpbKDw0J4Ij9z2MDkE7cwUyUXRxwm-fO8lPK7uYjdHYX6SkmVdXmOWkS0_1BxOKBrGKoOV4qKoMOhftjreMEXPq78lJgzQuEz5V-Q9UQ8sxHBNI6jwtrGOCK1-RBf8',
+    image: '/images/b2.jpg',
     category: 'Health'
   },
   {
     id: '3',
     title: '발효 미생물이 우리 몸에 미치는 영향',
     excerpt: '보이지 않는 작은 생명들이 만들어내는 기적. 과학적 데이터를 통해 분석한 효소의 체내 흡수 매커니즘을 알아봅니다.',
-    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDw2TCD9wzMAuWxtQwesDDtgjQm7gTpPMvjVrv9i4qonQiELy98eY3qno5vZ3ZWWJnmJLAYFIk40LaJlfAKcBtpYZOaivJOJ_L-QChJ4IZZGBN9Wllan3ZZJ66U20DXnxT51K7EmPzF4mvy7dUytN1sGOf8pSuuvfH7_Yfy0Ts9ARv4E0w5zYQxTtgom4rbDZxINGtQwlf4DEVXNCJCCfGAp8yboNEs1jPosvFhAeOc5ovzdDIpCRy06Vx-hAX6WHQvgBlmdyC82-Q',
+    image: '/images/b3.jpg',
     category: 'Science'
   },
 ];
