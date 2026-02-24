@@ -10,22 +10,23 @@ export default function Header({ onNavigate, currentPage }: HeaderProps) {
   return (
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-        <div 
-          className="flex items-center gap-2 cursor-pointer" 
+        <div
+          className="flex items-center gap-2 cursor-pointer"
           onClick={() => onNavigate('home')}
         >
           <Leaf className="text-primary w-8 h-8" />
           <h1 className="text-2xl font-black tracking-tighter text-deep-green">효소명가</h1>
         </div>
-        
+
         <nav className="hidden md:flex items-center gap-10">
           {NAV_ITEMS.map((item) => (
-            <a 
+            <a
               key={item.label}
               href={item.href}
-              className={`text-sm font-semibold hover:text-primary transition-colors ${
-                (currentPage === 'products' && item.label === 'Products') ? 'text-primary' : ''
-              }`}
+              target={item.href.startsWith('http') ? '_blank' : undefined}
+              rel={item.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+              className={`text-sm font-semibold hover:text-primary transition-colors ${(currentPage === 'products' && item.label === 'Products') ? 'text-primary' : ''
+                }`}
               onClick={(e) => {
                 if (item.label === 'Products') {
                   e.preventDefault();
@@ -41,9 +42,9 @@ export default function Header({ onNavigate, currentPage }: HeaderProps) {
         <div className="flex items-center gap-4">
           <div className="hidden lg:flex items-center bg-primary/10 rounded-lg px-3 py-1.5">
             <Search className="w-4 h-4 text-primary mr-2" />
-            <input 
-              type="text" 
-              placeholder="Search..." 
+            <input
+              type="text"
+              placeholder="Search..."
               className="bg-transparent border-none focus:ring-0 text-sm w-32 placeholder:text-primary/60"
             />
           </div>

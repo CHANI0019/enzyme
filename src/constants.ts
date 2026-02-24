@@ -4,7 +4,7 @@ export const NAV_ITEMS: NavItem[] = [
   { label: 'About', href: '#' },
   { label: 'Products', href: '#products' },
   { label: 'Fermentation Science', href: '#science' },
-  { label: 'Blog', href: '#blog' },
+  { label: 'Blog', href: 'https://m.blog.naver.com/papasong2020?noTrackingCode=true&proxyReferer=&tab=1' },
   { label: 'Contact', href: '#' },
 ];
 
