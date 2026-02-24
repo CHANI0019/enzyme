@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Noto Sans KR", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Manrope", "Noto Sans KR", sans-serif;
+  
+  --color-primary: #11d45f;
+  --color-deep-green: #0d3b26;
+  --color-natural-beige: #f4f1ea;
+  --color-background-light: #f6f8f7;
+  --color-background-dark: #102217;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-background-light text-slate-900;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
