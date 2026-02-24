@@ -11,22 +11,22 @@ export default function Home() {
       <section className="relative h-[85vh] w-full flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/60 z-10" />
-          <img 
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfFnmF-hD3x1Q66fCOqE-pUrxdwLbWiLqfQanFlvTtjX3bnpWIzGF40diqu7lVyvBy1n1O0bPDD7ULgMHh0ncYXWDschu94Au8jwIil_4OTb4SZ6c_I1yj9LbRCqmal1nLGyMafCFd60hl66DKBEnWPXJTWOMbHqIFaY-qDnPxSbo90XRoJ6RMzEXzLpaVKXqRMbzz0lVs9BaKnnOSvblcZ7LqDggF2h4ERYSlDxiYZ9l5uobK992Ig_G9kWxbwcWlXoCjRNUozzA" 
-            alt="Traditional Jars" 
+          <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfFnmF-hD3x1Q66fCOqE-pUrxdwLbWiLqfQanFlvTtjX3bnpWIzGF40diqu7lVyvBy1n1O0bPDD7ULgMHh0ncYXWDschu94Au8jwIil_4OTb4SZ6c_I1yj9LbRCqmal1nLGyMafCFd60hl66DKBEnWPXJTWOMbHqIFaY-qDnPxSbo90XRoJ6RMzEXzLpaVKXqRMbzz0lVs9BaKnnOSvblcZ7LqDggF2h4ERYSlDxiYZ9l5uobK992Ig_G9kWxbwcWlXoCjRNUozzA"
+            alt="Traditional Jars"
             className="w-full h-full object-cover scale-105"
             referrerPolicy="no-referrer"
           />
         </div>
         <div className="relative z-20 text-center px-6 max-w-4xl">
-          <motion.span 
+          <motion.span
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="inline-block px-4 py-1.5 bg-primary/20 backdrop-blur-md border border-primary/30 text-primary rounded-full text-xs font-bold uppercase tracking-widest mb-6"
           >
             Premium Natural Fermentation
           </motion.span>
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
@@ -34,7 +34,7 @@ export default function Home() {
           >
             시간과 정성이 만드는<br />생명의 에너지, <span className="text-primary">효소명가</span>
           </motion.h2>
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
@@ -42,7 +42,7 @@ export default function Home() {
           >
             전통의 지혜와 현대 과학이 만나 당신의 일상에 건강한 아름다움을 전합니다.
           </motion.p>
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
@@ -102,17 +102,17 @@ export default function Home() {
 
             {/* Strengths */}
             <div className="flex flex-col gap-8">
-              <SciencePoint 
+              <SciencePoint
                 title="고분자 영양소의 저분자화"
                 description="체내 흡수가 어려운 거대 영양소를 잘게 쪼개어 영양 전달 효율을 극대화합니다."
                 icon="🧬"
               />
-              <SciencePoint 
+              <SciencePoint
                 title="항산화 성분 활성화"
                 description="발효 숙성 과정을 거치며 원재료의 항산화 성분을 극대화하여 활력을 부여합니다."
                 icon="🛡️"
               />
-              <SciencePoint 
+              <SciencePoint
                 title="천연 유익균 생성"
                 description="인위적 첨가물 없이 자연 배양된 유익균이 장내 환경을 건강하게 케어합니다."
                 icon="🧪"
@@ -130,7 +130,12 @@ export default function Home() {
               <h2 className="text-deep-green text-sm font-bold tracking-[0.2em] uppercase mb-3">Our Journal</h2>
               <h3 className="text-4xl font-black text-slate-900 tracking-tight">발효 이야기</h3>
             </div>
-            <a href="#" className="text-primary font-bold flex items-center gap-2 hover:underline">
+            <a
+              href="https://m.blog.naver.com/papasong2020?noTrackingCode=true&proxyReferer=&tab=1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary font-bold flex items-center gap-2 hover:underline"
+            >
               블로그 전체보기 <ArrowRight className="w-4 h-4" />
             </a>
           </div>
@@ -150,10 +155,15 @@ export default function Home() {
           <h2 className="text-3xl md:text-5xl font-black text-white mb-10 leading-tight">
             효소명가의 더 많은 이야기가<br /><span className="text-primary">네이버 블로그</span>에 담겨 있습니다
           </h2>
-          <button className="inline-flex items-center gap-4 bg-primary text-deep-green px-12 py-5 rounded-full font-black text-xl hover:scale-105 active:scale-95 transition-all shadow-2xl shadow-primary/20">
+          <a
+            href="https://m.blog.naver.com/papasong2020?noTrackingCode=true&proxyReferer=&tab=1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-4 bg-primary text-deep-green px-12 py-5 rounded-full font-black text-xl hover:scale-105 active:scale-95 transition-all shadow-2xl shadow-primary/20"
+          >
             <Rss className="w-6 h-6" />
             효소명가 네이버 블로그 바로가기
-          </button>
+          </a>
         </div>
       </section>
     </div>
@@ -162,7 +172,7 @@ export default function Home() {
 
 function SciencePoint({ title, description, icon }: { title: string; description: string; icon: string }) {
   return (
-    <motion.div 
+    <motion.div
       whileHover={{ x: 10 }}
       className="group flex gap-6 items-start p-8 bg-white rounded-2xl shadow-lg border-l-8 border-primary transition-all"
     >
