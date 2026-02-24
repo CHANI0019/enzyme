@@ -28,7 +28,7 @@ export default function Products() {
         <div className="relative z-20 max-w-2xl">
           <h1 className="text-white text-4xl md:text-6xl font-black mb-4 tracking-tighter">Products</h1>
           <p className="text-white/90 text-sm md:text-xl font-medium leading-relaxed px-4">
-            Traditional fermentation meets modern wellness. <br className="hidden md:block" /> Discover our premium collection of life-enriching enzymes.
+            전통 발효 방식과 현대적인 웰빙의 만남. <br className="hidden md:block" /> 삶을 풍요롭게 하는 프리미엄 효소 컬렉션을 만나보세요.
           </p>
         </div>
       </section>
