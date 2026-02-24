@@ -5,7 +5,7 @@ export const NAV_ITEMS: NavItem[] = [
   { label: 'Products', href: '#products' },
   { label: 'Fermentation Science', href: '#science' },
   { label: 'Blog', href: 'https://m.blog.naver.com/papasong2020?noTrackingCode=true&proxyReferer=&tab=1' },
-  { label: 'Contact', href: '#' },
+  { label: 'Contact', href: 'https://map.naver.com/v5/search/%EC%9D%B8%EC%B2%9C%20%EC%84%9C%EA%B5%AC%20%EC%84%9D%EB%82%A8%EB%8F%99%20455' },
 ];
 
 export const PRODUCTS: Product[] = [

@@ -46,7 +46,14 @@ export default function Footer() {
             <ul className="space-y-4 text-sm text-slate-500">
               <li className="flex gap-3">
                 <MapPin className="text-primary w-5 h-5 shrink-0" />
-                <span>인천시 서구 석남동 455 2층 효소명가</span>
+                <a
+                  href="https://map.naver.com/v5/search/%EC%9D%B8%EC%B2%9C%20%EC%84%98%EA%B5%AC%20%EC%84%9D%EB%82%A8%EB%8F%99%20455"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-primary transition-colors"
+                >
+                  인천시 서구 석남동 455 2층 효소명가
+                </a>
               </li>
               <li className="flex gap-3">
                 <Phone className="text-primary w-5 h-5 shrink-0" />

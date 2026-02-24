@@ -54,9 +54,14 @@ export default function Header({ onNavigate, currentPage }: HeaderProps) {
           <button className="p-2 text-slate-700 hover:text-primary transition-colors">
             <User className="w-5 h-5" />
           </button>
-          <button className="bg-primary hover:bg-primary/90 text-deep-green px-6 py-2.5 rounded-full font-bold text-sm transition-all shadow-lg shadow-primary/20 hidden sm:block">
+          <a
+            href="https://map.naver.com/v5/search/%EC%9D%B8%EC%B2%9C%20%EC%84%9C%EA%B5%AC%20%EC%84%9D%EB%82%A8%EB%8F%99%20455"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-primary hover:bg-primary/90 text-deep-green px-6 py-2.5 rounded-full font-bold text-sm transition-all shadow-lg shadow-primary/20 hidden sm:block"
+          >
             Contact Us
-          </button>
+          </a>
           <button className="md:hidden p-2">
             <Menu className="w-6 h-6" />
           </button>
