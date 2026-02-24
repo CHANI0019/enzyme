@@ -30,9 +30,9 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-4xl md:text-7xl font-black text-white leading-[1.15] mb-8 tracking-tight drop-shadow-2xl"
+            className="text-4xl md:text-7xl font-black text-white leading-[1.2] md:leading-[1.15] mb-8 tracking-tight drop-shadow-2xl"
           >
-            시간과 정성이 만드는<br />생명의 에너지, <span className="text-primary">효소명가</span>
+            시간과 정성이 만드는<br className="hidden md:block" /> 생명의 에너지, <span className="text-primary">효소명가</span>
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -61,10 +61,10 @@ export default function Home() {
       {/* Science Section */}
       <section id="science" className="py-24 bg-natural-beige">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-20">
-            <h2 className="text-deep-green text-sm font-bold tracking-[0.2em] uppercase mb-3">Science of Fermentation</h2>
-            <h3 className="text-4xl md:text-5xl font-black text-slate-900 tracking-tight">발효의 과학적 원리</h3>
-            <div className="w-20 h-1.5 bg-primary mx-auto mt-6 rounded-full" />
+          <div className="text-center mb-16 md:mb-20">
+            <h2 className="text-deep-green text-xs md:text-sm font-bold tracking-[0.2em] uppercase mb-3">Science of Fermentation</h2>
+            <h3 className="text-3xl md:text-5xl font-black text-slate-900 tracking-tight">발효의 과학적 원리</h3>
+            <div className="w-16 md:w-20 h-1.5 bg-primary mx-auto mt-6 rounded-full" />
           </div>
 
           <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -159,7 +159,7 @@ export default function Home() {
             href="https://m.blog.naver.com/papasong2020?noTrackingCode=true&proxyReferer=&tab=1"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-4 bg-primary text-deep-green px-12 py-5 rounded-full font-black text-xl hover:scale-105 active:scale-95 transition-all shadow-2xl shadow-primary/20"
+            className="inline-flex items-center gap-4 bg-primary text-deep-green px-8 md:px-12 py-4 md:py-5 rounded-full font-black text-lg md:text-xl hover:scale-105 active:scale-95 transition-all shadow-2xl shadow-primary/20"
           >
             <Rss className="w-6 h-6" />
             효소명가 네이버 블로그 바로가기
