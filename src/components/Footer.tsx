@@ -46,11 +46,11 @@ export default function Footer() {
             <ul className="space-y-4 text-sm text-slate-500">
               <li className="flex gap-3">
                 <MapPin className="text-primary w-5 h-5 shrink-0" />
-                <span>서울특별시 강남구 테헤란로 효소빌딩 5F</span>
+                <span>인천시 서구 석남동 455 2층 효소명가</span>
               </li>
               <li className="flex gap-3">
                 <Phone className="text-primary w-5 h-5 shrink-0" />
-                <span>02-1234-5678</span>
+                <span> 010 - 9047 - 2223</span>
               </li>
               <li className="flex gap-3">
                 <Mail className="text-primary w-5 h-5 shrink-0" />
