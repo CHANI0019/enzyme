@@ -19,7 +19,7 @@ export default function Products() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-background-dark/40 z-10" />
           <img
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAf0mkfF464LlcpevsRcsNhGAkBULSzhGACjeUzGBgVyozlsg9EwjEjE81aYUyFR5mGraLF4j_tlVlC4NsbMeuR-V1BzXLd-1aTxwQ5WLkFoglv1yTDjgJffBT2wuIuBGFk2ZAeq8TNhL4dKS84SlbulncQpkEJeKv9rrazIChimKKG7yvj_x2Ce9XBmHPA-D0jiMsl691rNUDE9PaiIKUFuGP5yxeWqwnc_kWphUEUrJdR0Zi8ilJCPCSDtRyt7lq_X3MF5Ci_mD8"
+            src="https://images.unsplash.com/photo-1540348563548-6ec47aa8021a?q=80&w=2000&auto=format&fit=crop"
             alt="Products Hero"
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"
@@ -42,8 +42,8 @@ export default function Products() {
                 key={cat}
                 onClick={() => setActiveCategory(cat)}
                 className={`px-6 py-2 rounded-full font-bold text-sm transition-all ${activeCategory === cat
-                    ? 'bg-primary text-white'
-                    : 'bg-primary/10 text-slate-800 hover:bg-primary/20'
+                  ? 'bg-primary text-white'
+                  : 'bg-primary/10 text-slate-800 hover:bg-primary/20'
                   }`}
               >
                 {cat}
@@ -84,8 +84,8 @@ export default function Products() {
 function PaginationButton({ label, icon, active }: { label?: string; icon?: React.ReactNode; active?: boolean }) {
   return (
     <button className={`w-10 h-10 flex items-center justify-center rounded-lg border transition-colors ${active
-        ? 'bg-primary text-white border-primary font-bold'
-        : 'border-primary/20 hover:bg-primary/10 text-slate-600'
+      ? 'bg-primary text-white border-primary font-bold'
+      : 'border-primary/20 hover:bg-primary/10 text-slate-600'
       }`}>
       {label || icon}
     </button>
