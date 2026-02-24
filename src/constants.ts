@@ -13,7 +13,7 @@ export const PRODUCTS: Product[] = [
     id: '1',
     name: 'Premium Grain Enzyme',
     description: 'Highly concentrated digestive support',
-    price: 45.00,
+    price: 45000,
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuA2Tu1sjP9puhLxShZtGvQ25h3lineWbQg-CEplM1cUktlpIbIpDmS1xbu9WBeZelojoR-0a781dnpIfuF9tzVAcnZXIDQwfEAtmbSIdCBgeALkZZ67M_6pyY7IMhYVnQyIOnvGnyPJSemWoWOBHDPuTFe5yt0LIoBd7NgNhXwEe1_dq-Z8FP7bSgPBtUyUO_Y-6Wq8tkX9G32dlGtse1rLOcSO9qJaacGQzsLyXAjIPU0uPr8HxbhsNz8YuddxLMqoYuJwfehZqs4',
     tag: 'Best',
     category: 'Enzyme Powders'
@@ -22,7 +22,7 @@ export const PRODUCTS: Product[] = [
     id: '2',
     name: 'Wild Ginseng Extract',
     description: '6-year aged premium energy tonic',
-    price: 89.00,
+    price: 89000,
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBBz1kiB60GR-ZvDWVR8To-ZtygAvd4ADkFFEl_A6o6vVw4h5wDTQC3TXmgqBodpxt8YjQOuRpF3Uf93RbYARciAUcz-87-qEZYVpkZg4bX5vclXwDQWsupO9129uuO8zMT9WsITAb3R89eSsvyklDhy0ukXMCuKe_PvqbUWh100ypL-afAmEijtON2Iwwtk-rUAiwpEI1LxgyEOYlVSlXtTnZ9VM9Jk5FSyC-B8FJSWFspiETvnotWpovnjxl0Hif0i8SqXl9sFgE',
     tag: 'New',
     category: 'Fermented Extracts'
@@ -31,7 +31,7 @@ export const PRODUCTS: Product[] = [
     id: '3',
     name: 'Heritage Gift Set',
     description: 'Curated collection of our finest ferments',
-    price: 120.00,
+    price: 120000,
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBkTf6vPlLSpgc_r0JdhsefN4JYuXmupqSww5ANmn6d8IiSZA-eRimXr92ra-xKlbQSveOoEmgQ07NNT86bce-fSF0PGHSsFp793hQ8w2hBq4hB9gy7Ja7zuKEEyADDQpK_RfjD5uZ0XLY9nFHnli6M162uk0MLT5dF0KbO02zoC_XfmgK_KYi7xfYFGL7N_r_f5mCW1MoHm6Pof8rJY6cMw-43uNqGptu8UZnHx4uRE8ODKE8ykcoJb0oBHhnQf74I-qBPnGk_kCo',
     tag: 'Best',
     category: 'Gift Sets'
@@ -40,7 +40,7 @@ export const PRODUCTS: Product[] = [
     id: '4',
     name: 'Daily Enzyme Sticks',
     description: 'Portable wellness for busy lifestyles',
-    price: 38.00,
+    price: 38000,
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCOAMc8WHZYMhZHDmZKS-SGJxSS6mJJuo2VRe1HDBDlfAOhINt4yOPbZUjvOiPBp4Hbvj8U4aPAn4R3zwbvxjmvFNbh7GvPzpkZSDsJUkKdbbcKmSCf8-pheSpgX2GbIvHwrvjq9KY4iCfBV_HSipCcLJQ9GBqXfSiGchCccM3BC2S3_kp2iFY6mNoLRCntRZgIx4nrv7inw6C98QyPBrg5GalMZcFkKHS9vyoGTSrCBO1_eoc0Jtz3LyeJCTpjJTyhtECyO-5yBcQ',
     tag: 'New',
     category: 'Enzyme Powders'
@@ -49,7 +49,7 @@ export const PRODUCTS: Product[] = [
     id: '5',
     name: 'Aged Plum Extract',
     description: '10-year naturally fermented elixir',
-    price: 52.00,
+    price: 52000,
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDyXGps9BXMV-sRdoQ6UlI8WJxPi06fbKoLbDfcXPXoC2g-885stqAEwz9Qpz_XZD4QqtysaF1eyXOWMbB371vdOsgRfGKQuHeiKuH_rOWm6at5aA8kOtjFklL7bEUZ-pfst9OgaCazMO0VvcRABS5WggCK6zapPrkPMspEy9Umh8r-czLU8wz7FuOtsXqOEKtcUY4xVYSdJe_U7ocWTPX_jKS7oeodBxuzVp6sWXcamPVDPhSSMpwyCEjLvIOBo4oC6DNvuQbrfiA',
     tag: 'Premium',
     category: 'Fermented Extracts'
@@ -58,7 +58,7 @@ export const PRODUCTS: Product[] = [
     id: '6',
     name: 'Fermented Bean Paste',
     description: 'Deeply savory traditional recipe',
-    price: 28.00,
+    price: 28000,
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCfZMmcI-eeagVYIFrzZcxHj83PvvEyD-4EM-8D6iKQOYoMx8AvgJATKVKquNUWChL_IGwYvyCmX7Ago1cYeLkhOdnBvn05UYqgQQCTyLkYXerSjpTaKgCjMGxH5NCd6aoY-JX_rsBimg2rGtlDWT237LkUeBVfzkNmczRZUKBPnDRzYr23lGnCXOOgjeRwEwZUL-RRx_DpDQbMiMYTq9WCnMw9qturHMNjMvxaw9m3F4D9EkB4SYN_LuHwYsK-TK3VR9787B16Bgw',
     tag: 'Best',
     category: 'Fermented Extracts'
@@ -67,7 +67,7 @@ export const PRODUCTS: Product[] = [
     id: '7',
     name: 'Black Garlic Essence',
     description: 'Maximum vitality and immunity boost',
-    price: 75.00,
+    price: 75000,
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBjKo809EgTvcVnhizSCbLG7KpHxCpHQM9W2BN04l5eG7P-EQNhUinK1pH10o0RXPnrZX_tYpmS2-8KapAZUsGB1aGTMOKvr5vujLlf2VVNHMFGz_3Geg7vvZH1TiygoXOhL284dHpn_fyfKeLY4va_EadmSWm0hN9NSKN0xMDX0vADSvPhYj6Lmna_9oDE2Oj4kbpam_oBe87reAM7eEri455fr3E8EI46PGU-_B4WNRuPhmeNgOE7RO0wsAv7Yt0Q-ySlLgzMVo4',
     tag: 'Best',
     category: 'Fermented Extracts'
@@ -76,7 +76,7 @@ export const PRODUCTS: Product[] = [
     id: '8',
     name: 'Sprouted Grain Powder',
     description: 'Whole grains for healthy metabolism',
-    price: 32.00,
+    price: 32000,
     image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBll5wXKZLWMTa9a_1k1lOxFljvKfg4-9zHYEMEGsxlB51gJjrA0ceNWUL4do9Z1InAHJGuybWudV-b_21t8274CSmsyO61mYcyCHAd2_E-UTx0wWwWX_SvDzXJx9dqqFH4JT-51eU_Gx9-noJEOCkgZznri2-nOCG60cMH3hFGtAvttqgmNbtrt8G9G6XP7UHhPwJxux6ZXkTcS4YEdW_JRs731SNEO3PYphBlQNpz8pxQZmdhfFdXcv4qSKizhGjJN-yaLq1dbnw',
     tag: 'New',
     category: 'Enzyme Powders'
