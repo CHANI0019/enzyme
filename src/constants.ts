@@ -1,7 +1,7 @@
 import { NavItem, Product, BlogPost } from './types';
 
 export const NAV_ITEMS: NavItem[] = [
-  { label: 'About', href: '#' },
+  { label: 'About', href: '#about' },
   { label: 'Products', href: '#products' },
   { label: 'Fermentation Science', href: '#science' },
   { label: 'Blog', href: 'https://m.blog.naver.com/papasong2020?noTrackingCode=true&proxyReferer=&tab=1' },

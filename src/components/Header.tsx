@@ -18,6 +18,20 @@ export default function Header({ onNavigate, currentPage }: HeaderProps) {
     if (item.label === 'Products') {
       e.preventDefault();
       onNavigate('products');
+    } else if (item.href.startsWith('#') && currentPage !== 'home') {
+      e.preventDefault();
+      onNavigate('home');
+
+      // Allow time for Home component to mount
+      setTimeout(() => {
+        const id = item.href.substring(1);
+        if (id) {
+          const element = document.getElementById(id);
+          element?.scrollIntoView({ behavior: 'smooth' });
+        } else {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      }, 100);
     }
     closeMenu();
   };
