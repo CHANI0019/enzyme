@@ -47,12 +47,12 @@ export default function Footer() {
               <li className="flex gap-3">
                 <MapPin className="text-primary w-5 h-5 shrink-0" />
                 <a
-                  href="https://map.naver.com/v5/search/%EC%9D%B8%EC%B2%9C%20%EC%84%98%EA%B5%AC%20%EC%84%9D%EB%82%A8%EB%8F%99%20455"
+                  href="https://map.naver.com/v5/search/%EC%9D%B8%EC%B2%9C%20%EC%84%9C%EA%B5%AC%20%EA%B0%80%EC%A0%95%EB%8F%99%20611-24%20%ED%98%84%EB%B9%8C%EB%94%A9"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-primary transition-colors"
                 >
-                  인천시 서구 석남동 455 2층 효소명가
+                  인천 서구 가정동 611-24 현빌딩 3층
                 </a>
               </li>
               <li className="flex gap-3">
